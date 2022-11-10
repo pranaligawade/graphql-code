@@ -1,0 +1,10 @@
+type Query{
+	getOne(id:Int):Pranali
+	getAll:[Pranali]
+}
+
+type Pranali{
+	id:Int
+	quality:String
+	score:String
+}

@@ -1,0 +1,26 @@
+
+type  Query{
+    firstQuery:String
+    secondQuery:String
+#    fullname(fname:String,lname:String):String
+    fullname(request:StudentRequest):String
+    student(id:Int):StudentResponse
+}
+
+type StudentResponse {
+    id:Int
+    name: String
+    city:String
+    Street:String
+    learnsubj:[SubjectResponse]
+}
+
+type SubjectResponse {
+    id:Int
+    subjectName:String
+}
+
+input StudentRequest {
+    fname:String!
+    lname:String
+}

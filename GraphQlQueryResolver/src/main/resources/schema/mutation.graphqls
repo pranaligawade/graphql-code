@@ -1,0 +1,10 @@
+type Mutation{
+    createBook1(book:BookInput):Book
+    update(id:Int,book:BookInput):Book
+    delete(id:Int):Book
+}
+input BookInput{
+    id:Int
+    author:String
+    title:String
+}

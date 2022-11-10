@@ -1,0 +1,12 @@
+type Query{
+	allStudent:[StudentGraphql]
+	getStudent(id:Int):StudentGraphql
+}
+
+ type  StudentGraphql{
+	 id:Int!
+	 f_name:String
+	 L_name:String
+	 city:String
+
+ }

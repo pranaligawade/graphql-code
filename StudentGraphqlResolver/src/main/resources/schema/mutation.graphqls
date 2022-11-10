@@ -1,0 +1,13 @@
+type Mutation{
+#    createBook1(book:BookInput):Book
+#    update(id:Int,book:BookInput):Book
+#    delete(id:Int):Book
+    createStu(request:StudentRequest):StudentGraphql
+    update(id:Int,request:StudentRequest):StudentGraphql
+}
+input StudentRequest{
+    id:Int!
+    f_name:String
+    L_name:String
+    city:String
+}

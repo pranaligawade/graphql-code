@@ -1,0 +1,23 @@
+type Mutation{
+    addData(bankLevel:BankLevelInp):BankLevel
+    updateData(policy_code:String,bankLevelInp:BankLevelInp):BankLevel
+    deleteData(policy_code:String):BankLevel
+}
+
+input BankLevelInp{
+    policyCode:String!
+    entity:String
+    entityLevel:String
+    entityCode:String
+    entityName:String
+    bankCode:String
+    bankName:String
+    automaticWriteOffPolicyName:String
+    schemeType:String
+    moduleCode:String
+    effectiveDate:String
+    healthCode:String
+    healthCodeDescription:String
+    dpd:String
+}
+

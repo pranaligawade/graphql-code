@@ -1,0 +1,11 @@
+type Query{
+	getAllBook:[Book]
+	getBook(id:Int):Book
+}
+
+ type  Book{
+	 id:Int!
+	 title:String
+	 author:String
+	 price:Float
+ }

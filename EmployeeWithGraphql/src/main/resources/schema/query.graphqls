@@ -1,0 +1,10 @@
+type Query{
+    allEmp:[Employee]
+    getEmp(id:Int):Employee
+}
+type Employee{
+    id:ID!
+    name:String
+    empcode:Int
+    address:String
+}

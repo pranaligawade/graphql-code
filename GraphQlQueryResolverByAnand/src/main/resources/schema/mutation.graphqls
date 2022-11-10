@@ -1,0 +1,11 @@
+type Mutation{
+    addData(pranali:PranaliInp):Pranali
+    updateData(id:Int,pranali:PranaliInp):Pranali
+    deleteData(id:Int):Pranali
+}
+
+input PranaliInp{
+    id:Int
+    quality:String
+    score:String
+}
