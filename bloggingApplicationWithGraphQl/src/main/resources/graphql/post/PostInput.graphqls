@@ -1,0 +1,13 @@
+input PostInput{
+    post_id:Int
+
+    title:String
+
+    content:String
+
+    addDate:String
+
+    imgName:String
+
+
+}

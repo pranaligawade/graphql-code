@@ -1,0 +1,5 @@
+ type CatDto{
+    cat_id:Int
+    cat_title:String
+    cat_details:String
+}

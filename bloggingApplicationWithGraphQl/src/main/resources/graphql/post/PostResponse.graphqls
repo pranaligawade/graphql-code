@@ -1,0 +1,16 @@
+type PostDto{
+    post_id:Int
+
+    title:String
+
+    content:String
+
+    addDate:String
+
+    imgName:String
+
+    catDto:CatDto
+
+   userDto:User
+
+}

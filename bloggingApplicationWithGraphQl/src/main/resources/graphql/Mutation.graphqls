@@ -1,0 +1,16 @@
+type  Mutation{
+    create_User(userDto:UserInput):User
+    update_User(userDto:UserInput,user_id:Int):User
+    delete_User(user_id:Int):Int
+
+    #category
+
+    create_Category(catDto:CategoryInp):CatDto
+    update_category(catDto:CategoryInp,cat_id:Int):CatDto
+    delete_Category(cat_id:Int):Int
+
+    #post
+    create_Post(postDto:PostInput,user_id:Int,cat_id:Int):PostDto
+    update_Post(postDto:PostInput,post_id:Int):PostDto
+    delete_Post(post_id:Int):Int
+}

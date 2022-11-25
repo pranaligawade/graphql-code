@@ -1,0 +1,20 @@
+
+ using rest with spring boot:
+
+ project:
+ backendcourse- learnwith durgesh;
+
+mapping relationship : refer post api
+
+getdata with other entity: refer post api-
+postservice and postcontroller files :- getbycategory and getbyuser methods
+
+searching : refer
+
+
+sorting:refer
+getALL_Post_page : method
+
+paging:refer
+getALL_Post_page : method
+

@@ -6,17 +6,17 @@ type Query{
 
 type BankLevel{
     policyCode:String!
-    entity:String
-    entityLevel:String
-    entityCode:String
-    entityName:String
-    bankCode:String
-    bankName:String
-    automaticWriteOffPolicyName:String
-    schemeType:String
-    moduleCode:String
-    effectiveDate:String
-    healthCode:String
-    healthCodeDescription:String
-    dpd:String
+    entity:String!
+    entityLevel:String!
+    entityCode:String!
+    entityName:String!
+    bankCode:String!
+    bankName:String!
+    automaticWriteOffPolicyName:String!
+    schemeType:String!
+    moduleCode:String!
+    effectiveDate:String!
+    healthCode:String!
+    healthCodeDescription:String!
+    dpd:String!
 }

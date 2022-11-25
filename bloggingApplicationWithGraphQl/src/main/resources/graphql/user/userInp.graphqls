@@ -1,0 +1,7 @@
+input  UserInput{
+    user_id:ID!
+    name:String!
+    email:String!
+    pass:String!
+    about:String!
+}

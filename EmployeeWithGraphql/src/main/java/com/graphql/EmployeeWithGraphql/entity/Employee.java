@@ -13,10 +13,10 @@ import javax.persistence.*;
 @AllArgsConstructor
 @ToString
 public class Employee {
-  @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private  int id;
-    private  String name;
-    private  int  empcode;
-    private  String address;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+    private String name;
+    private int empcode;
+    private String address;
 }

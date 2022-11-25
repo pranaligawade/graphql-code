@@ -1,0 +1,14 @@
+type  Query{
+    get_All:[User]
+    get_user(user_id:Int):User
+
+    getAll:[CatDto]
+    getById(cat_id:Int):CatDto
+
+    get_post(post_id:Int):PostDto
+    get_ALL_Post:[PostDto]
+
+    getPostBy_Cat(cat_id:Int):[PostDto]
+
+    getPost_User(user_id:Int):[PostDto]
+}
